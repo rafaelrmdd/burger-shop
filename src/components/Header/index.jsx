@@ -1,6 +1,6 @@
 export const Header = () => {
     return(
-        <div className="w-full h-[15vh] flex justify-between px-16">
+        <div className="w-full h-[15vh] flex justify-between px-20 font-poppins">
             <div className="flex items-center text-left">
                 <span className="text-black w-64">Hamburguer</span>
             </div>
