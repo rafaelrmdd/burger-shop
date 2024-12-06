@@ -10,4 +10,8 @@
   body {
     @apply overflow-y-hidden;
   }
+
+  .slick-prev {
+    color: red;
+  }
 }

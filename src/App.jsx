@@ -1,3 +1,4 @@
+import { BurgersSlider } from "./components/Content/BurgersSlider"
 import { Home } from "./pages/Home"
 
 

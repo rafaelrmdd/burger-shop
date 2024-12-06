@@ -1,5 +1,7 @@
-import cheeseBurger from "../../assets/cheese-burger.png"
+import { BurgersSlider } from "./BurgersSlider";
 import { IoIosArrowDropright as RightArrow} from "react-icons/io";
+
+import cheeseBurger from "../../assets/cheese-burger.png"
 
 export const Content = () => {
     return (
@@ -14,14 +16,9 @@ export const Content = () => {
                     <span>R$10,00</span>
                 </div>
             </section>
-
-            <section className="w-[60%] flex justify-center ">
-                <img src={cheeseBurger} alt="Cheese burger" className="w-[638px] h-[638px] relative top-[-170px] right-[-40px]"/>
-            </section>
-
-            <div className="flex items-center">
-                <RightArrow size={30} className="hover:cursor-pointer hover:brightness-10 relative top-[-170px]"/>
-            </div>
+            
+            {/* Slider */}
+            <BurgersSlider/>
         </main>
     )
 };
