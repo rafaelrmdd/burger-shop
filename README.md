@@ -1,4 +1,4 @@
-Updated version of my portfolio.
+Landing page of a burger place.
 
 # Getting Started with Create React App
 
